@@ -1,0 +1,11 @@
+# Build and IDE
+/build/
+/.idea/
+/.vscode/
+*.iml
+
+# Logs
+*.log
+
+# OS junk
+.DS_Store
