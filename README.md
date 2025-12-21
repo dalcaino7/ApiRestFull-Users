@@ -5,7 +5,7 @@ API RESTful para registrar usuarios con validaciones configurables. Usa Spring B
 
 ## Requisitos
 - Java 21
-- Gradle 8.x (`gradle` instalado). El wrapper no se pudo generar en este entorno; si lo prefieres, ejecuta `gradle wrapper` localmente.
+- Gradle 8.x (`gradle` instalado).
 
 ## Cómo ejecutar
 ```bash
