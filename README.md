@@ -26,9 +26,9 @@ Si cambiaste el puerto, ajusta las URLs.
 ### Ejemplo de petición
 ```json
 {
-  "name": "Juan Rodriguez",
-  "email": "juan@rodriguez.org",
-  "password": "Hunter2024",
+  "name": "David Alcaino",
+  "email": "david.alcaino.7@gmail.com",
+  "password": "Da123456",
   "phones": [
     {
       "number": "1234567",
@@ -42,21 +42,21 @@ Si cambiaste el puerto, ajusta las URLs.
 ### Respuesta exitosa (201)
 ```json
 {
-  "id": "7dcf4d8c-0a3f-4a40-9495-5b4d3a6f2b20",
-  "name": "Juan Rodriguez",
-  "email": "juan@rodriguez.org",
-  "created": "2024-09-28T10:00:00.123",
-  "modified": "2024-09-28T10:00:00.123",
-  "last_login": "2024-09-28T10:00:00.123",
-  "token": "d3c1f216-23b5-4d4a-9d45-2d66a49d3a30",
-  "inactive": false,
-  "phones": [
-    {
-      "number": "1234567",
-      "citycode": "1",
-      "contrycode": "57"
-    }
-  ]
+    "id": "e5818be4-83ea-4c66-b26e-b3aef9807f14",
+    "name": "David Alcaino",
+    "email": "david.alcaino.7@gmail.com",
+    "token": "4d79a8a9-fc99-492e-980d-4f169285d089",
+    "phones": [
+        {
+            "number": "1234567",
+            "citycode": "1",
+            "contrycode": "57"
+        }
+    ],
+    "created": "2025-12-21T03:35:38.237628",
+    "modified": "2025-12-21T03:35:38.237628",
+    "last_login": "2025-12-21T03:35:38.237628",
+    "inactive": false
 }
 ```
 
