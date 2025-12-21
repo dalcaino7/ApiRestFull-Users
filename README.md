@@ -1,5 +1,5 @@
-<<<<<<< HEAD
 # ApiRestFull-Users
+desafio tecnico BCI
 
 API RESTful para registrar usuarios con validaciones configurables. Usa Spring Boot 3, Java 21, JPA/Hibernate y base de datos en memoria H2.
 
@@ -17,6 +17,11 @@ La API queda disponible en `http://localhost:8080`.
 ## Endpoint
 - `POST /api/users`  
   Crea un usuario nuevo.
+
+## Swagger/OpenAPI
+- UI: `http://localhost:8080/swagger-ui.html`
+- JSON: `http://localhost:8080/v3/api-docs`
+Si cambiaste el puerto, ajusta las URLs.
 
 ### Ejemplo de petición
 ```json
